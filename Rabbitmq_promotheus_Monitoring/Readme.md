@@ -8,7 +8,6 @@ apt install vim -y
 apt install sudo -y
 apt install rabbitmq-server -y
 
-
 sudo apt update
 sudo apt install -y gnupg2 curl software-properties-common
 curl -fsSL https://packages.grafana.com/gpg.key|sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/grafana.gpg
